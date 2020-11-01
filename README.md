@@ -6,8 +6,10 @@ Clone this repo and create alias command.
 
 ```sh
 git clone https://github.com/FelipeMaeda/Search-log-postfix.git
-alias log='$(pwd)/./search_log_postfix.sh'
+alias log="$(pwd)/Search-log-postfix/./search_log_postfix.sh"
+chmod a+x /Search-log-postfix/search_log_postfix.sh
 ```
+The command alias will be temporary, but you can directly specify the file path to run or add the alias to your Bashrc.
 
 ### Usage:
 
